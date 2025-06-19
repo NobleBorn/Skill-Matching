@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# macOS
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Streamlit secrets (if any)
+.streamlit/secrets.toml
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Data or output files
+*.csv
+*.xlsx
+*.pdf
+*.png
+*.jpg
+*.jpeg
