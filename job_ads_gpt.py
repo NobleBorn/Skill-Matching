@@ -9,7 +9,6 @@ import os
 from openai import OpenAI
 from requests.exceptions import HTTPError
 from cv_gpt_4_parser import standardize_skills
-from cv_gpt_4_parser import match_skills_to_esco_specific
 
 # --- User input and config ---
 #st.set_page_config(layout="wide")
