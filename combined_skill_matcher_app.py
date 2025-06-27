@@ -9,8 +9,8 @@ import os
 from openai import OpenAI
 
 # ---------- Environment ----------
-gpt_key = st.secrets["OPENAI_API_KEY"]
-theirstack_key = st.secrets["THEIRSTACK_API_KEY"]
+gpt_key = os.getenv("OPENAI_API_KEY")
+theirstack_key = os.getenv("THEIRSTACK_API_KEY")
 
 client = OpenAI(api_key=gpt_key, base_url="https://anast.ita.chalmers.se:4000")
 
